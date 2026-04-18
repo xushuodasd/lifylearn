@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+  }
+
+  body {
+    @apply bg-background text-text-primary antialiased min-h-screen selection:bg-primary/30;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Scrollbar Styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-surface;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface-highlight rounded-full hover:bg-zinc-600 transition-colors;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-surface/70 backdrop-blur-md border border-white/5 shadow-xl;
+  }
+  
+  .glass-card {
+    @apply bg-surface/40 backdrop-blur-sm border border-white/5 hover:bg-surface/60 transition-all duration-300;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(99, 102, 241, 0.5);
+  }
+  
+  .hero-gradient {
+    background: radial-gradient(circle at top center, rgba(99, 102, 241, 0.15), transparent 40%);
+  }
+}
