@@ -19,7 +19,24 @@
 
 本项目为个人开源版本，核心功能包含知识碎片整理、技术教程管理以及个人常用工具库导航。平台支持高度自动化，包含智能解析 Markdown 与 Word `.docx` 文档、自动提取图片等后台静默操作，实现极致的录入体验。
 
-*(注：项目截图与演示资源可存放在 `docs/assets/` 目录下。)*
+---
+
+## 🖼️ 项目视觉展示
+
+### 🖥️ 界面预览
+<div align="center">
+  <img src="docs/assets/屏幕截图 2026-03-23 210207.png" width="45%" />
+  <img src="docs/assets/屏幕截图 2026-03-23 210252.png" width="45%" />
+  <br />
+  <img src="docs/assets/屏幕截图 2026-03-23 210403.png" width="45%" />
+  <img src="docs/assets/屏幕截图 2026-03-23 210412.png" width="45%" />
+</div>
+
+### 🏗️ 系统架构
+<div align="center">
+  <img src="docs/assets/全栈应用系统架构_架构图.svg" width="80%" />
+  <p><em>全栈应用系统架构图</em></p>
+</div>
 
 ---
 
