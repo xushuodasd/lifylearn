@@ -1,0 +1,8 @@
+- 系统架构设计文档[text](../../docs/standards/ARCHITECTURE.md)
+- 安全标准文档[text](../../docs/standards/SECURITY_STANDARDS.md)
+- 编码规范文档[text](../../docs/standards/CODING_STANDARDS.md)
+- PRD文档[text](../../docs/PRD_v1.0.md)
+- 项目新功能文档文件夹[text](../../docs/project_new)
+- 写代码必须严格遵守各文档标准,包括但不限于API规范、数据模型、命名约定、架构设计、安全标准、编码规范等.                        
+- 新增或修改代码，均需要在对应的文档中进行详细说明,并确保符合编码规范文档.
+- API请严格根据API文档进行连接,不得直接硬编码URL或参数.
